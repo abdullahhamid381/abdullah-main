@@ -1,0 +1,7 @@
+@import './Mediaquery.scss';
+.tracker-parent{
+display: block;
+    @include lg{
+        display: none !important;
+    }
+}

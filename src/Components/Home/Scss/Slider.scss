@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+@import './Mediaquery.scss';
+.back-slider {
+  padding: 120px 0;
+  background: #02050A;
+
+  .width {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    @include lg{
+      width: 80%;
+      margin: auto;
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: 500;
+      color: rgb(85, 230, 165);
+      font-family: 'Poppins', sans-serif;
+    }
+
+    h1 {
+      color: white;
+      font-size: 48px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      line-height: 62px;
+    }
+.cards{
+
+  padding-top: 80px;
+  .swiper {
+    width: 100%;
+    height: 100%;
+    .swiper-slide {
+    
+      font-size: 18px;
+      background: #09101A;
+    
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .content{
+        padding:  20px;
+        h1{
+          font-weight: 500;
+          font-size: 24px;
+          line-height: normal;
+          @include mobile{
+            font-size: 20px;
+          }
+        }
+        
+   .live{
+    text-decoration: none;
+ cursor: pointer;
+    background: #55E6A5;
+    border: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: 0.8s;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    gap: 5px;
+    width: 30%;
+    justify-content: center;
+    button{
+      background: none;
+      border: none;
+      font-size: 18px;
+      font-weight: 600;
+      transition: 0.8s;
+      cursor: pointer;
+      @include mobile{
+        font-size: 16px;
+      }
+    }
+    span{
+      font-size: 18px;
+      font-weight: 400;
+      color: black;
+      transition: 0.8s;
+      @include mobile{
+        font-size: 12px;
+      }
+    }
+   }
+   .live:hover{
+    background: #141C27;
+    span{
+      color: white;
+    }
+    button{
+      color: white;
+    }
+   }
+      }
+    }
+  }
+}
+    
+  
+    
+    
+  }
+
+
+ 
+}

@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import './Mediaquery.scss';
+.navbar-parent{
+  position: fixed;
+  top: 0;
+  // max-width: 1300px;
+  width: 100%;
+  margin: auto;
+  // left: 111px;
+  z-index: 9;
+  
+    .navbar {
+         background-color: #09101A;
+    /* height: 80px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    position: relative;;
+
+    /* height: 0; */
+    height: 0;
+    padding: 40px 153px;
+    @include lg{
+      padding: 40px 135px;
+   
+    }
+    @include sms{
+      padding: 40px 94px;
+    }
+    @include mobile{
+      padding: 40px 80px;
+    }
+    @include xxsmobile{
+      padding: 40px 70px;
+    }
+    .contact{
+    margin-right: -40px;
+    @include lg{
+      display: none;
+    }
+ 
+   
+      button{
+        background: #55E6A5;
+        border: none;
+        width: 100%;
+        font-size: 50px;
+        padding: 0 15px;
+        height: 80px;
+        cursor: pointer;
+      }
+    }
+      }
+      
+     
+
+        .logo{
+   margin-left: -40px;
+   cursor: pointer;
+            img{
+                width: 36%;
+            }
+        }
+      
+      
+      .nav-logo {
+        color: #f5b921;
+        align-items: center;
+        margin-left: 20px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 2rem;
+        flex-grow: 1;
+      
+        display: flex;
+        align-items: center;
+        justify-items: center;
+      }
+      
+      .nav-logo .icon {
+        display: inline-block;
+        width: 3rem;
+        height: 3rem;
+        margin-left: 16px;
+      }
+      
+      .nav-menu {
+        display: flex;
+        list-style: none;
+        text-align: center;
+        margin-right: 2rem;
+      }
+      
+    
+      /* .fa-code {
+        margin-left: 1rem;
+      } */
+      
+      .nav-item {
+        line-height: 2rem;
+        margin-right: 4rem;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+     
+        @include lg{
+          color: rgb(255, 255, 255);
+        }
+       
+          .link{
+            color: rgb(255, 255, 255);
+            
+          }
+        
+      }
+      
+      .nav-item:after {
+        content: "";
+        display: block;
+        height: 3px;
+        width: 0;
+        background: transparent;
+        transition: width 0.7s ease, background-color 0.5s ease;
+      }
+      
+      .nav-item:hover:after {
+        width: 100%;
+        background: #55E6A5;
+      }
+      
+      .nav-item .active {
+        color: #ffdd40;
+        border: 1px solid #ffdd40;
+      }
+      
+      .nav-icon {
+        display: none;
+        color: #f5b921;
+      }
+      
+      .nav-icon .icon {
+        display: inline-block;
+        width: 2rem;
+        height: 2rem;
+        font-size: 45px;
+      }
+      
+      @media screen and (max-width: 992px) {
+        .nav-menu {
+          display: flex;
+          flex-direction: column;
+          width: 40%;
+         
+          position: absolute;
+          top: 80px;
+          left: -110%;
+          opacity: 1;
+          transition: all 0.5s ease;
+          height: 100vh;
+        }
+      
+        .nav-menu.active {
+          background: #141C27;
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+        }
+        .nav-item .active {
+          color: #55E6A5;
+          border: none;
+        }
+        .nav-links {
+          padding: 1.5rem;
+          width: 100%;
+          display: table;
+        }
+      
+        .nav-logo .icon {
+          width: 2rem;
+          height: 2rem;
+        }
+      
+        .nav-icon {
+          display: block;
+          position: absolute;
+          top: 50%;
+          right: 10px;
+          transform: translate(-100%, -50%);
+          width: 2rem;
+        
+          cursor: pointer;
+          color: #ffffff;
+        }
+      }
+   
+}
+
