@@ -27,7 +27,7 @@ const Hero = () => {
 
 
   return (
-    <div className='hero-main-parent'>
+    <div className='hero-main-parent' style={{paddingBottom:'120px'}}>
 
       <div className='hero-back'>
         <div className='text-img'>
@@ -63,9 +63,7 @@ const Hero = () => {
 
             </div>
           </div>
-          <div className='my-img'>
-            {/* <img src="./images/myimg.png" alt="" /> */}
-          </div>
+         
         </div>
       </div>
 
