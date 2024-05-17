@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 @import "./Mediaquery.scss";
-.skill-back-parent {
-  background: #09101a;
+
+.projects-back-parent {
+  background: #02050a;
 
   .skill-width {
     width: 100%;
@@ -9,10 +10,12 @@
     margin: 0 auto;
     padding-top: 120px;
     padding-bottom: 120px;
+
     @include lg {
       width: 80%;
       margin: auto;
     }
+
     .section {
       h3 {
         font-size: 20px;
@@ -24,6 +27,7 @@
         padding: 0;
         text-transform: uppercase;
         text-align: center;
+
         @include mobile {
           font-size: 16px;
           font-weight: 500;
@@ -36,6 +40,7 @@
           text-align: center;
         }
       }
+
       h2 {
         font-family: "Poppins", sans-serif;
         color: white;
@@ -47,9 +52,11 @@
         line-height: 62px;
         width: 60%;
         padding-top: 10px;
+
         @include lg {
           width: 100%;
         }
+
         @include mobile {
           font-family: "Poppins", sans-serif;
           color: white;
@@ -65,58 +72,82 @@
       }
     }
 
-    .progress-bar {
-      // Your existing styles for progress bar
+    .project-img {
+      position: relative;
 
-      .bar-container {
-        position: relative;
-      }
-
-      .percentage {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #fff; // You can adjust the color as needed
+      img {
+        width: 100%;
       }
     }
 
-    .progress-bar {
-      width: 100%;
-      margin: 10px 0;
-      background-color: #151c25;
+    .content {
+      background: #09101ae4;
+      top: 0;
 
-      overflow: hidden;
-      opacity: 0.7;
-      transition: opacity 0.5s ease;
+      height: 100vh;
+      left: 0;
+      position: absolute;
+      transition: 0.8s;
 
-      &.active {
-        opacity: 1;
-      }
+      .text {
+        padding: 30px 0;
+        width: 90%;
+        margin: auto;
 
-      .bar {
-        height: 5px;
-        background-color: #55e6a5;
-        transition: width 1s ease;
-      }
+        h1 {
+          color: rgb(85, 230, 165);
+          font-weight: 600;
+          font-family: "Poppins", sans-serif;
+          font-size: 18px;
+        }
 
-      .label {
-        font-family: "Poppins", sans-serif;
-        color: white;
-        padding: 30px 20px;
-        font-size: 16px;
-        font-weight: 400;
+        h2 {
+          padding: 5px 0;
+          color: white;
+          font-weight: 600;
+          font-family: "Poppins", sans-serif;
+          font-size: 28px;
+        }
+
+        p {
+          color: #a6a6ac;
+
+          font-weight: 400;
+          font-family: "Poppins", sans-serif;
+          font-size: 16px;
+          word-spacing: 2px;
+        }
+
+        .tech {
+          padding: 10px 0;
+          display: flex;
+          gap: 0 20px;
+
+          span {
+            color: #a6a6ac;
+            font-weight: 400;
+            font-family: "Poppins", sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+          }
+        }
+
+        .link {
+          padding: 10px 0;
+
+          a {
+            color: #a6a6ac;
+            font-size: 18px;
+          }
+        }
       }
     }
-    .progress-bars {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      place-content: center;
-      gap: 10px 80px;
-      padding-top: 80px;
-      @include lg {
-        grid-template-columns: 1fr;
-      }
+
+    .content:hover {
+      opacity: 0;
+    }
+    .slide{
+      padding: 60px 0;
     }
   }
 }

@@ -9,6 +9,7 @@ import Slider from "../Home/Slider";
 import { Subscribe } from "../Home/Subscribe";
 import Footer from "../Home/Footer";
 import Review from "../Home/Review";
+import Projects from "../Home/Projects";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       {/* <Slider/> */}
 
       <Skills />
+      <Projects/>
       <Review />
       <Subscribe />
 
