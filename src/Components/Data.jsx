@@ -91,6 +91,8 @@ export const projects = [
   {
     img: "./images/food.png",
     link:"https://homez-appdir.vercel.app/",
+    h1:'Grocerie MarketPlace',
+    para:'The project features a clean and responsive design, user-friendly navigation,I have created a roceries marketplace web app in this user can easily purchase all the groceries item,I created this web app for my client '
   },
   {
     img: "./images/resturant.png",
@@ -100,12 +102,12 @@ export const projects = [
   {
     img: "./images/appartment.png",
     h1:'Real State',
-    para:'The project features a clean and responsive design, user-friendly navigation,I have created real state web app for my client In it, you can display your property qualities with images, and then  sell, rent and buy  '
+    para:'The project features a clean and responsive design, user-friendly navigation,I have created real state web app for my client In it, user can display the property qualities with images, and then  sell, rent and buy  '
   },
   {
     img: "./images/tour.png",
     h1:'Tour Agency',
-    para:'The project features a clean and responsive design, user-friendly navigation,I have created a tourism agency web app in which you can easily set the planned tour with popular places with plan packages.'
+    para:'The project features a clean and responsive design, user-friendly navigation,I have created a tourism agency web app in which user can easily set the planned tour with popular places with plan packages.'
   },
   {
     img: "./images/dashboard.png",
@@ -120,12 +122,12 @@ export const projects = [
   {
     img:"./images/doctor.png",
     h1:"Doctor Appointment",
-    para:'The project features a clean and responsive design, user-friendly navigation,I have created a web app for doctors in this web all the detail added like that  shops, medicine, booking appointment, and I created multiple designs .'
+    para:'The project features a clean and responsive design, user-friendly navigation,I have created a web app for doctors in this web all the detail added like that  shops, medicine, booking appointment, and I created multiple designs in this web app.'
   },
   {
     img:"./images/car.png",
     h1:"Car Showroom",
-    para:'The project features a clean and responsive design, user-friendly navigation,I have created a car showroom website in which you can search for cars according to your status and you can easily filter the cars ( new, used, auction) select and buy the car.'
+    para:'The project features a clean and responsive design, user-friendly navigation,I have created a car showroom website in which user can search for cars according to status and user can easily filter the cars ( new, used, auction) select and buy the car.'
   },
   {
     img: "./images/ecom.png",
