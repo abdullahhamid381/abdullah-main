@@ -101,8 +101,8 @@ export const projects = [
   },
   {
     img: "./images/appartment.png",
-    h1:'Real State',
-    para:'The project features a clean and responsive design, user-friendly navigation, I have created real state web app for my client In it, user can display the property qualities with images, and then  sell, rent and buy  '
+    h1:'Real Estate',
+    para:'The project features a clean and responsive design, user-friendly navigation, I have created real estate web app for my client In it, user can display the property qualities with images, and then  sell, rent and buy  '
   },
   {
     img: "./images/tour.png",
