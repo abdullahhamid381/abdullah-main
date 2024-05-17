@@ -94,6 +94,8 @@ export const projects = [
   },
   {
     img: "./images/resturant.png",
+    h1:'Cafeu Resturant',
+    para:'The project features a clean and responsive design, user-friendly navigation,I have created a resturant web app and add all the features related to resturant like that menu, dishes, services, pricing booking etc '
   },
   {
     img: "./images/appartment.png",
@@ -107,11 +109,18 @@ export const projects = [
   },
   {
     img: "./images/dashboard.png",
+    h1:'Admin Dashboard',
+    para:'The project features a clean and responsive design, user-friendly navigation,I have created task monetring admin dashboard in this all the detail avaible according to website like that sales, appointment, members etc '
   },
   {
     img: "./images/cloth.png",
     h1:'Cloth Store',
     para:"The project features a clean and responsive design, user-friendly navigation, and integrated e-commerce functionalities. It demonstrates my ability to create a seamless online shopping experience, from product listings to secure checkout, "
+  },
+  {
+    img:"./images/doctor.png",
+    h1:"Doctor Appointment",
+    para:'The project features a clean and responsive design, user-friendly navigation,I have created a web app for doctors in this web all the detail added like that  shops, medicine, booking appointment, and I created multiple designs .'
   },
   {
     img:"./images/car.png",
