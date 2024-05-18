@@ -1,75 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
-@import './Mediaquery.scss';
-.contact-form-parent{
-
-    background: #02050A;
-    .contact-back{
-        max-width: 1300px;
-        width: 100%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        gap: 0 80px;
-        padding-top: 120px;
-        padding-bottom: 120px;
-place-content: center;
-place-items: center;
-@include lg{
-    grid-template-columns: 1fr;
-    width: 80%;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap");
+@import "./Mediaquery.scss";
+.contact-form-parent {
+  background: #02050a;
+  .contact-back {
+    max-width: 1300px;
+    width: 100%;
     margin: auto;
-    gap: 80px 0;
-}
-        .text{
-            h1{
-                margin: 0;
-                padding: 0;
-                color: white;
-                font-family: 'Poppins', sans-serif;
-                font-size: 128px;
-                font-weight: 600;
-                line-height: 60px;
-                @include sms{
-                    margin: 0;
-                    padding: 0;
-                    color: white;
-                    font-family: 'Poppins', sans-serif;
-                    font-size: 77px;
-                    font-weight: 600;
-                    line-height: 60px;
-                }
-                @include smobile{
-                    margin: 0;
-                    padding: 0;
-                    color: white;
-                    font-family: 'Poppins', sans-serif;
-                    font-size: 57px;
-                    font-weight: 600;
-                    line-height: 60px;
-                }
-                span{
-                    font-size: 60px;
-                    font-weight: 600;
-                    color: #55E6A5;
-                    @include smobile{
-                        
-                        font-size: 57px;
-                      
-                    }
-
-                }
-            }
-            p{
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 27px;
-                color: #A6A6AC;
-                font-family: 'Poppins', sans-serif;
-                margin-top: 40px;
-                li{
-                    margin-top: 10px;
-                }
-            }
-        }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 80px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    place-content: center;
+    place-items: center;
+    @include lg {
+      grid-template-columns: 1fr;
+      width: 80%;
+      margin: auto;
+      gap: 80px 0;
     }
+    .text {
+      h1 {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 128px;
+        font-weight: 600;
+        line-height: 60px;
+        @include sms {
+          margin: 0;
+          padding: 0;
+          color: white;
+          font-family: "Poppins", sans-serif;
+          font-size: 66px;
+          font-weight: 600;
+          line-height: 60px;
+        }
+        @include smobile {
+          margin: 0;
+          padding: 0;
+          color: white;
+          font-family: "Poppins", sans-serif;
+          font-size: 57px;
+          font-weight: 600;
+          line-height: 60px;
+        }
+        span {
+          font-size: 60px;
+          font-weight: 600;
+          color: #55e6a5;
+          @include smobile {
+            font-size: 57px;
+          }
+        }
+      }
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        color: #a6a6ac;
+        font-family: "Poppins", sans-serif;
+        margin-top: 40px;
+        li {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
 }

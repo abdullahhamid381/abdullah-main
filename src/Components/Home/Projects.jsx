@@ -24,53 +24,68 @@ const Projects = () => {
             <h2>Some Things I’ve Built</h2>
           </div>
 
-       <div className="slide">
-       <Swiper 
-            slidesPerView={2}
-            spaceBetween={40}
-            loop={true}
-            freeMode={true}
-            pagination={{
-              clickable: true,
-            }}
-            modules={[FreeMode]}
-            className="mySwiper"
-          >
-            {projects.map((item) => {
-              return (
-                <SwiperSlide>
-               <a href={item.link}>
-               <div >
-                    <div className="project-img">
-                      <img src={item.img} alt="" />
-                    </div>
-                    <div className="content">
-                      <div className="text">
-                        <h1>Featured Project</h1>
-                        <h2>{item.h1}</h2>
-                        <p>
-                         {item.para}
-                        </p>
-                        <div className="tech">
-                          <span>Next.js</span>
-                          <span>Next.js</span>
-                          <span>Next.js</span>
-                          <span>Next.js</span>
+          <div className="slide">
+            <Swiper
+              slidesPerView={1}
+              spaceBetween={30}
+              loop={true}
+              freeMode={true}
+              pagination={{
+                clickable: true,
+              }}
+              breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                1024: {
+                  slidesPerView: 2,
+                  spaceBetween: 30,
+                },
+                1800: {
+                  slidesPerView: 2,
+                  spaceBetween: 50,
+                },
+              }}
+              modules={[FreeMode]}
+              className="mySwiper"
+            >
+              {projects.map((item) => {
+                return (
+                  <SwiperSlide>
+                    <a href={item.link}>
+                      <div>
+                        <div className="project-img">
+                          <img src={item.img} alt="" />
                         </div>
-                        <div className="link">
-                          <a href="">
-                            <FiExternalLink />
-                          </a>
+                        <div className="content">
+                          <div className="text">
+                            <h1>Featured Project</h1>
+                            <h2>{item.h1}</h2>
+                            <p>{item.para}</p>
+                            <div className="tech">
+                              <span>{item.tech1}</span>
+                              <span>{item.tech2}</span>
+                              <span>{item.tech3}</span>
+                            </div>
+                            <div className="link">
+                              <a href="">
+                                <FiExternalLink />
+                              </a>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-               </a>
-                </SwiperSlide>
-              );
-            })}
-          </Swiper>
-       </div>
+                    </a>
+                  </SwiperSlide>
+                );
+              })}
+            </Swiper>
+          </div>
         </div>
       </div>
     </div>

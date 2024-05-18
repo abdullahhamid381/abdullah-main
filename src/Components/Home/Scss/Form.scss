@@ -1,140 +1,153 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
-@import './Mediaquery.scss';
-.form-parent{
-    background: #09101A;
-    padding: 40px;
-    .name-parent{
-        label{
-            color: white;
-            font-family: 'Poppins', sans-serif;
-            display: none;
-        }
-        input{
-            border: 1px solid #55E6A5;
-            background: none;
-            color: white;
-            width: 93%;
-            padding: 20px 20px;
-            margin-top: 30px;
-            font-size: 18px;
-            font-family: 'Poppins', sans-serif;
-            outline: none;
-        }
-        input::placeholder{
-            color: #A6A6AC;
-            background: none;
-        }
-        
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap");
+@import "./Mediaquery.scss";
+.form-parent {
+  background: #09101a;
+  padding: 40px;
+  .name-parent {
+    label {
+      color: white;
+      font-family: "Poppins", sans-serif;
+      display: none;
     }
-    .email-parent{
-        label{
-            color: white;
-            display: none;
-        }
-        input{
-            border: 1px solid #55E6A5;
-            background: none;
-            color: white;
-            width: 93%;
-            padding: 20px 20px;
-            margin-top: 30px;
-            font-size: 18px;
-            font-family: 'Poppins', sans-serif;
-            outline: none;
-        }
-        input::placeholder{
-            color: #A6A6AC;
-            background: none;
-        }
+    input {
+      border: 1px solid #55e6a5;
+      background: none;
+      color: white;
+      width: 93%;
+      padding: 20px 20px;
+      margin-top: 30px;
+      font-size: 18px;
+      font-family: "Poppins", sans-serif;
+      outline: none;
     }
-    .phone-label{
-        label{
-            color: white;
-            display: none;
-        }
-        input{
-            border: 1px solid #55E6A5;
-            background: none;
-            color: white;
-            width: 93%;
-            padding: 20px 20px;
-            margin-top: 30px;
-            font-size: 18px;
-            font-family: 'Poppins', sans-serif;
-            outline: none;
-        }
-        input::placeholder{
-            color: #A6A6AC;
-            background: none;
-        }
+    input::placeholder {
+      color: #a6a6ac;
+      background: none;
     }
-    .message-parent{
-        label{
-            color: white;
-            display: none;
-        }
-        .message
-        {
-            border: 1px solid #55E6A5;
-            background: none;
-            color: white;
-            width: 93%;
-            padding: 20px 20px;
-            margin-top: 30px;
-            font-size: 18px;
-            font-family: 'Poppins', sans-serif;
-            outline: none;
-            height: 180px;
-            
-        }
-        .message::placeholder{
-            color: #A6A6AC;
-            background: none;
-        }
+  }
+  .email-parent {
+    label {
+      color: white;
+      display: none;
     }
-    .touch{
-       h1{
-        color: white;
-        font-family: 'Poppins', sans-serif;
-        font-size: 40px;
-        font-weight: 400;
-        line-height: 48px;
-       }
-       p{
-        color: #A6A6AC;
-        font-family: 'Poppins', sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 27.2px;
-       }
+    input {
+      border: 1px solid #55e6a5;
+      background: none;
+      color: white;
+      width: 93%;
+      padding: 20px 20px;
+      margin-top: 30px;
+      font-size: 18px;
+      font-family: "Poppins", sans-serif;
+      outline: none;
     }
-    .requ{
-        font-family: 'Poppins', sans-serif;
-        margin-top: 10px;
+    input::placeholder {
+      color: #a6a6ac;
+      background: none;
     }
-    .submit{
-        background: #55E6A5;
-        border: none;
-        font-size: 16px;
-        font-family: 'Poppins', sans-serif;
-        border-radius: 5px;
-        cursor: pointer;
-        padding: 20px 30px;
-        transition: .8s;
-        font-size: 20px;
-        display: flex;
-        align-items: center;
-        margin-top: 30px;
-        gap:5px;
-      }
-      .submit:hover{
-        background: #141C27;
-        color: white;
-      }
-      
+  }
+  .phone-label {
+    label {
+      color: white;
+      display: none;
+    }
+    input {
+      border: 1px solid #55e6a5;
+      background: none;
+      color: white;
+      width: 93%;
+      padding: 20px 20px;
+      margin-top: 30px;
+      font-size: 18px;
+      font-family: "Poppins", sans-serif;
+      outline: none;
+    }
+    input::placeholder {
+      color: #a6a6ac;
+      background: none;
+    }
+  }
+  .message-parent {
+    label {
+      color: white;
+      display: none;
+    }
+    .message {
+      border: 1px solid #55e6a5;
+      background: none;
+      color: white;
+      width: 93%;
+      padding: 20px 20px;
+      margin-top: 30px;
+      font-size: 18px;
+      font-family: "Poppins", sans-serif;
+      outline: none;
+      height: 180px;
+    }
+    .message::placeholder {
+      color: #a6a6ac;
+      background: none;
+    }
+  }
+  .touch {
+    h1 {
+      color: white;
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 48px;
+    }
+    p {
+      color: #a6a6ac;
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 27.2px;
+    }
+  }
+  .requ {
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+  }
+  .submit {
+    background: #55e6a5;
+    border: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px 30px;
+    transition: 0.8s;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 5px;
+  }
+  .submit:hover {
+    background: #141c27;
+    color: white;
+  }
 }
 
 .modalbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #141c27;
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+    0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  padding: 32px;
+  // width: 70%;
+}
+
+@media screen and (max-width: 550px) {
+  .modalbox {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -142,28 +155,12 @@
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-   width: 400px;
-    background-color: #141C27;
-    box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2), 0px 24px 38px 3px rgba(0,0,0,0.14), 0px 9px 46px 8px rgba(0,0,0,0.12);
-    padding: 32px;
-    // width: 70%;
-
-}
-
-@media screen and (max-width:550px) {
-    .modalbox {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
     //    width: 400px;
-        background-color: #141C27;
-        box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2), 0px 24px 38px 3px rgba(0,0,0,0.14), 0px 9px 46px 8px rgba(0,0,0,0.12);
-        padding: 32px;
-        width: 70%;
-    
-    }
+    background-color: #141c27;
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+      0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    width: 70%;
+  }
 }
