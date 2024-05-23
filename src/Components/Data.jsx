@@ -140,7 +140,7 @@ export const projects = [
   {
     img:"./images/doctor.png",
     h1:"Doctor Appointment",
-    para:'The project features a clean and responsive design and user-friendly navigation, I have created a web app for doctors in this web all the details like shops, medicine, and booking appointments, and I created multiple designs in this web app.
+    para:'The project features a clean and responsive design and user-friendly navigation, I have created a web app for doctors in this web all the details like shops, medicine, and booking appointments, and I created multiple designs in this web app.',
     tech1:'Next.Js',
     tech2:'Node.Js',
     tech3:'Tailwind',
