@@ -92,7 +92,7 @@ export const projects = [
     img: "./images/food.png",
     link:"https://homez-appdir.vercel.app/",
     h1:'Grocerie MarketPlace',
-    para:'The project features a clean and responsive design, user-friendly navigation, I have created a roceries marketplace web app in this user can easily purchase all the groceries item,I created this web app for my client ',
+    para:'The project features a clean and responsive design and user-friendly navigation, I have created a grocery marketplace web app in which users can easily purchase all the grocery items, I created this web app for my client ',
     tech1:'Next.Js',
     tech2:'Node.Js',
     tech3:'Tailwind',
@@ -100,7 +100,7 @@ export const projects = [
   {
     img: "./images/resturant.png",
     h1:'Cafeu Resturant',
-    para:'The project features a clean and responsive design, user-friendly navigation, I have created a resturant web app and add all the features related to resturant like that menu, dishes, services, pricing booking etc ',
+    para:'The project features a clean and responsive design and user-friendly navigation, I have created a restaurant web app and added all the features related to restaurants like the menu, dishes, services, pricing booking etc  ',
     tech1:'Next.Js',
     tech2:'Node.Js',
     tech3:'Tailwind',
@@ -156,7 +156,7 @@ export const projects = [
   {
     img: "./images/ecom.png",
     h1:'Cloth Store',
-    para:'The project features a clean and responsive design, user-friendly navigation,I have created a another cloth web store app for my client in this app user can esily buy the clothes, I have added all the features that a shopping store has in it',
+    para:'The project features a clean and responsive design, and user-friendly navigation, I have created another cloth web store app for my client in this app users can esily buy clothes, I have added all the features that a shopping store has in it',
     tech1:'Next.Js',
     tech2:'Node.Js',
     tech3:'Tailwind',
