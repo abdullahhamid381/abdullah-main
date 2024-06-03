@@ -1,7 +1,7 @@
 import React from 'react'
 import './Scss/Footer.scss'
 import { Footerdata } from '../Data'
-import { FaGithub,FaLinkedin  } from "react-icons/fa";
+import { FaGithub,FaLinkedin,FaWhatsapp   } from "react-icons/fa";
 import { MdMarkEmailRead } from "react-icons/md";
 const Footer = () => {
   return (
@@ -37,9 +37,10 @@ const Footer = () => {
 <span><FaLinkedin />
 </span>
 </a>
-   <span>
-<MdMarkEmailRead />
-</span>
+<a href="https://wa.me//03107956685" target='_blank'>   <span>
+   <FaWhatsapp />
+
+</span></a>
 
 </div>
   </div>
