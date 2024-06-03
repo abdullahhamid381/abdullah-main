@@ -20,7 +20,9 @@
       max-width: 1300px;
       width: 100%;
       margin: auto;
-      padding: 120px 0;
+      padding: 120px 0 0 0;
+      gap: 180px;
+    
 @include lg{
   padding-top: 160px  ;
   width: 80%;
@@ -120,7 +122,7 @@ transition: .8S;
       .my-img {
         img {
           width: 100%;
-          margin-left: 70px;
+     
           @include lg{
             display: none;
           }

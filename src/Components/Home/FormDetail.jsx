@@ -4,7 +4,8 @@ import { Form } from './Form'
 
 const FormDetail = () => {
   return (
-    <div className='contact-form-parent'>
+ <div style={{marginTop:'80px'}}>
+     <div className='contact-form-parent'>
       <div className='contact-back'>
         <div className='text'>
           <h1>Contact <span>With Me</span></h1>
@@ -33,6 +34,7 @@ const FormDetail = () => {
       </div>
 
     </div>
+ </div>
   )
 }
 

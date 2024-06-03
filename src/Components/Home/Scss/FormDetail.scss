@@ -2,6 +2,7 @@
 @import "./Mediaquery.scss";
 .contact-form-parent {
   background: #02050a;
+
   .contact-back {
     max-width: 1300px;
     width: 100%;
@@ -10,6 +11,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 0 80px;
     padding-top: 120px;
+   
     padding-bottom: 120px;
     place-content: center;
     place-items: center;
