@@ -52,9 +52,14 @@ function Navbar() {
               </Link>
             </li>
 
+            <Link to='/services'   className="link"
+                style={{ textDecoration: "none" }}>
             <li className="nav-item">Services</li>
+            </Link>
 
-            <li className="nav-item">Projects</li>
+           <Link to='/projects'  style={{ textDecoration: "none" }}>
+           <li className="nav-item">Projects</li>
+           </Link>
           </ul>
         </div>
         <div className="contact" style={{ marginRight: "" }}>

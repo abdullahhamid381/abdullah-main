@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import Home from "./Components/Pages/Home";
 import { Route, Routes } from "react-router";
 import AboutPage from "./Components/Pages/Aboutpage";
+import Servicespage from "./Components/Pages/Servicespage";
+import Projectspage from "./Components/Pages/Projectspage";
 
 const App = ({ toggleTheme }) => {
   const [loading, setLoading] = useState(true);
@@ -42,6 +44,8 @@ const App = ({ toggleTheme }) => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/services" element={<Servicespage />} />
+            <Route path="/projects" element={<Projectspage />} />
           </Routes>
         </div>
       )}
