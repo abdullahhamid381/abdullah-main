@@ -57,7 +57,7 @@ const Projects = () => {
               {projects.map((item) => {
                 return (
                   <SwiperSlide>
-                    <a href={item.link}>
+                    <a href={item.link} target="_blank">
                       <div>
                         <div className="project-img">
                           <img src={item.img} alt="" />
