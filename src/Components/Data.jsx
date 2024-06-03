@@ -8,8 +8,8 @@ import solution from "../assets/solution.png";
 export const Footerdata = [
   {
     img: "./images/location.svg",
-    add: "Address",
-    para: "District Bhakkar Punjab Pakistan",
+    add: "Country",
+    para: " Pakistan",
   },
   {
     img: "./images/phone.svg",

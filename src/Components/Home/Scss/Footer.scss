@@ -18,9 +18,8 @@
             padding-bottom: 40px;
             .grid{
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                place-items: center;
-                place-content: center;
+                grid-template-columns: 1fr 1fr 1fr ;
+               
                 @include lg{
                     grid-template-columns: 1fr;
                  
