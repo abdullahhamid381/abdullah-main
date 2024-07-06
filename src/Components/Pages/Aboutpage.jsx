@@ -30,7 +30,7 @@ const AboutPage = () => {
                     </div>
                 </div>
                 <div className='about-img'>
-                    <img src="./images/myimg.png" alt="" />
+                    <img src="./images/my.png" alt="" />
                 </div>
             </div>
             <Footer/>
