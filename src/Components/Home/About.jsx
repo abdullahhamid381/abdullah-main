@@ -2,6 +2,7 @@ import React from 'react'
 import './Scss/About.scss'
 import { FiDownload } from "react-icons/fi";
 import { Link } from 'react-router-dom';
+
 const About = () => {
     return (
         <div className='about-parent'>

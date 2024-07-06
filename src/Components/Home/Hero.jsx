@@ -7,7 +7,8 @@ import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const style = {
   position: "absolute",
   top: "50%",
@@ -20,6 +21,13 @@ const style = {
   p: 4,
 };
 const Hero = () => {
+  useEffect(() => {
+    AOS.init({
+         duration: 800,
+         once: false,
+       })
+ }, [])
+
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -28,7 +36,7 @@ const Hero = () => {
     <div className="hero-main-parent" style={{ paddingBottom: "120px" }}>
       <div className="hero-back">
         <div className="text-img">
-          <div className="typing-animation">
+          <div className="typing-animation" data-aos="fade-right">
             <h1>
               HI, I'M ABDULLAH! CREATIVE <br /> <span>FULL STACK DEV</span>
             </h1>
@@ -73,7 +81,7 @@ const Hero = () => {
               </Modal>
             </div>
           </div>
-          <div className="my-img">
+          <div className="my-img" data-aos="fade-left">
             <img src="./images/my.png" alt=""  />
           </div>
         </div>

@@ -1,8 +1,10 @@
 import React from 'react'
 import './Scss/FormDetail.scss'
 import { Form } from './Form'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const FormDetail = () => {
+  
   return (
  <div style={{marginTop:'80px'}}>
      <div className='contact-form-parent'>
@@ -29,7 +31,7 @@ const FormDetail = () => {
           </p>
         </div>
         <div>
-          <Form/>
+          <Form />
         </div>
       </div>
 
