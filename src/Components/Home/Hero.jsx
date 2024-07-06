@@ -40,7 +40,7 @@ const Hero = () => {
               your projects with my seasoned skills.
             </p>
             <div className="buttons">
-              <a href="Abdullah Hamid Cv.pdf" download="Abdullah Hamid Cv.pdf">
+              <a href="Abdullah Qureshi Cv.pdf" download="Abdullah Qureshi Cv.pdf">
                 {" "}
                 <button className="download">
                   Download Cv <FiDownload />

@@ -25,7 +25,7 @@ const AboutPage = () => {
                                 <br /><br />
                                 With a keen eye for detail, I have successfully collaborated on diverse projects, contributing to the development of feature-rich and high-performance applications. My commitment to staying abreast of the latest industry trends and technologies ensures that I bring a forward-thinking approach to every project. Ready to tackle new challenges, I am excited to continue pushing the boundaries of web development and delivering innovative solutions that make a lasting impact.
                             </p>
-                            <a href="Abdullah Hamid Cv.pdf" download='Abdullah Hamid Cv.pdf'>  <button className='download'>Download Cv <FiDownload /></button></a>
+                            <a href="Abdullah Qureshi Cv.pdf" download='Abdullah Qureshi Cv.pdf'>  <button className='download'>Download Cv <FiDownload /></button></a>
                         </div>
                     </div>
                 </div>
