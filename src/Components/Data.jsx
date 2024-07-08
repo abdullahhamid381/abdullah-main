@@ -89,6 +89,15 @@ export const projectsdata = [
 
 export const projects = [
   {
+    img:"./images/doctorweb.png",
+    link:'https://meeza.vercel.app/',
+    h1:"Doctor Appointment",
+    para:'The project features a clean and responsive design, user-friendly navigation, I have created a doctor appointment booking website in which user can easily book the appointment with doctor and see the all details about clinic ( Just Front-End ) ',
+    tech1:'Html',
+    tech2:'Css',
+    tech3:'Javascrip',
+  },
+  {
     img: "./images/food.png",
     link:"https://pickbazar-react-rest.vercel.app/",
     h1:'Grocerie MarketPlace',
@@ -163,21 +172,13 @@ export const projects = [
   },
   {
     img:"./images/meeza.png",
-    link:'https://drivco-nextjs.vercel.app/',
+    link:'https://doctorweb.vercel.app/',
     h1:"Table Booking",
     para:'The project features a clean and responsive design, user-friendly navigation, I have created a resturant table booking website in which user can easily book the table for meeting and events ( Just Front-End )',
     tech1:'Html',
     tech2:'Css',
     tech3:'Javascrip',
   },
-  {
-    img:"./images/doctorweb.png",
-    link:'https://drivco-nextjs.vercel.app/',
-    h1:"Doctor Appointment",
-    para:'The project features a clean and responsive design, user-friendly navigation, I have created a doctor appointment booking website in which user can easily book the appointment with doctor and see the all details about clinic ( Just Front-End ) ',
-    tech1:'Html',
-    tech2:'Css',
-    tech3:'Javascrip',
-  },
+  
   
 ];
